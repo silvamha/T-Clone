@@ -57,6 +57,10 @@
         },
       ];
 
+      /**!SECTION
+       * Get info on how to set up export default in JS
+       */
+
 
 
 
