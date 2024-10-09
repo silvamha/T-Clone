@@ -74,3 +74,5 @@ tweetsData.forEach((tweet =>{
     }
 }))
 
+// Work on complex .reduce() method
+
