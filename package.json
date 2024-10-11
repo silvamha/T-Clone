@@ -1,0 +1,14 @@
+{
+  "name": "twitter-clone",
+  "version": "1.2.0",
+  "description": "A Twitter clone to test for in, for of, forEach methods",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ed Silva",
+  "license": "ISC",
+  "dependencies": {
+    "uuid": "^10.0.0"
+  }
+}

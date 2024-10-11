@@ -80,3 +80,8 @@ tweetsData.forEach((tweet =>{
 // Rnder the tweets
 
 // Render data.js to DOM
+
+const words = ['Hello', 'world', 'from', 'join'];
+const joinedString = words.join(' ');
+console.log(joinedString); // "Hello world from join"
+
