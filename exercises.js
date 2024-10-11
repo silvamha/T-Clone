@@ -78,3 +78,5 @@ tweetsData.forEach((tweet =>{
 
 
 // Rnder the tweets
+
+// Render data.js to DOM
