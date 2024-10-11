@@ -85,3 +85,30 @@ const words = ['Hello', 'world', 'from', 'join'];
 const joinedString = words.join(' ');
 console.log(joinedString); // "Hello world from join"
 
+
+function processData(data, callback) {
+    // Perform some data processing
+    const result = data * 2;
+    callback(result);
+  }
+  
+  // Declare a separate function for the callback
+  function handleResult(result) {
+    console.log(`Processed result: ${result}`);
+  }
+  
+  // Use the function as an argument
+  processData(5, handleResult); // Output: Processed result: 10
+  
+
+  fetch('https://jsonplaceholder.typicode.com/posts')
+  .then(response => response.json())
+  .then(posts => {
+    // This is the callback function
+    console.log(posts);
+  })
+  .catch(error => {
+    console.error('Error fetching data:', error);
+  });
+
+
